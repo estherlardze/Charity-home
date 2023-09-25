@@ -1,2 +1,1 @@
-# Charity-home
-A non profit charity home landing page
+## A non profit charity home landing page

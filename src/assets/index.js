@@ -1,0 +1,14 @@
+export {default as Logo} from './images/Logo.png';
+export {default as hero} from './images/Hero.png';
+export {default as Rectangle1} from './images/Rectangle1.png';
+export {default as Rectangle2} from './images/Rectangle2.png';
+export {default as Rectangle3} from './images/Rectangle3.png';
+export {default as Rectangle4} from './images/Rectangle4.png';
+export {default as Photo1} from './images/image1.png';
+export {default as Photo2} from './images/image2.png';
+export {default as Photo3} from './images/image3.png';
+export {default as Photo4} from './images/image4.png';
+export {default as Photo5} from './images/image5.png';
+export {default as Photo6} from './images/image6.png';
+export {default as Photo7} from './images/image7.png';
+export {default as Photo8} from './images/image8.png';
