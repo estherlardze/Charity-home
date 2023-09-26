@@ -10,7 +10,8 @@ export default {
         'custom-color': '#219d8033', 
       },
       fontFamily: {
-        'custom': ['Playfair Display', 'sans'], 
+        custom: ['Playfair Display', 'sans'], 
+         custom2: ['Montserrat', 'serif'],
       },
     },
   },

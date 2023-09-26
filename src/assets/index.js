@@ -12,3 +12,8 @@ export {default as Photo5} from './images/image5.png';
 export {default as Photo6} from './images/image6.png';
 export {default as Photo7} from './images/image7.png';
 export {default as Photo8} from './images/image8.png';
+export {default as quote} from './images/quote.png';
+export {default as profile1} from './images/profile1.png';
+export {default as profile2} from './images/profile2.png';
+export {default as profile3} from './images/profile3.png';
+
