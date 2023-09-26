@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderColor: {
+        'custom-color': '#219d8033', 
+      },
+      fontFamily: {
+        'custom': ['Playfair Display', 'sans'], 
+      },
+    },
   },
   plugins: [],
 }

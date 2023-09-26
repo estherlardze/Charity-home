@@ -6,9 +6,9 @@ const Hero = () => {
     <div className='bg-cover bg-center w-full h-[90vh] '>
       <div className='relative'>
         <img src={hero} alt="hero image" className='w-full h-[60vh] xl:h-[80vh] '/>
-        <div className='text-center absolute top-[20%] md:top-[30%] left-[30%] text-white'>
+        <div className='text-center absolute top-[20%] md:top-[30%] left-[30%] text-white flex flex-col justify-center items-center'>
           <p className='font-semibold'>give hope for homeless</p>
-          <h2 className='font-extrabold text-3xl md:text-4xl xl:text-5xl  bigfont my-2'>Helping each other <br /> can make world better</h2>
+          <h2 className='font-extrabold text-3xl md:text-4xl xl:text-6xl font-custom my-2'>Helping each other <br /> can make world better</h2>
           <p className='text-gray-300'>We Seek out world changers and difference makers around the <br /> globe,
             and equip them to fulfill their unique purpose.
           </p>

@@ -7,9 +7,9 @@ const App = () => {
     <div>
     <Navbar />
     <Hero />
-    {/*<About />
-    <Featuredpost />
-    <Photos />
+    <About />
+   <Featuredpost />
+     {/*<Photos />
     <Testimonial />
     <Donate />
     <Footer /> */}
