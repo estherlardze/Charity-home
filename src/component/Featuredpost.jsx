@@ -4,8 +4,8 @@ import {BsShieldFillCheck} from 'react-icons/bs'
 
 const Featuredpost = () => {
   return (
-    <div className='grid items-center grid-cols-12 mx-[30px] xl:mx-[100px] md:mt-[220px] md:mb-[100px]'>
-      <div className='col-span-12 md:col-span-5 '>
+    <div className='grid place-items-center grid-cols-12 mx-[30px] xl:mx-[200px] mt-[50px] md:mt-[220px] md:mb-[250px]'>
+      <div className='col-span-12 lg:col-span-7 mx-4'>
         <div className='flex'>
           <p className='font-semibold'>Welcome to Charity</p>
           <hr className='border-b border-gray-300 w-[60px] mt-[18px] ml-1'/>
@@ -26,18 +26,20 @@ const Featuredpost = () => {
             </div>
          </div>
       </div>
-      <div className='mx-[50px] mt-[40px]'>
-        <p className='flex justify-between font-bold'><span className='text-[#219D80]'>Donations</span> 
-            <span>75%</span>
+      <div className=' mt-[40px] w-[94%] mx-[3%]  sm:w-[90%]'>
+        <p className='flex justify-between font-bold'>
+           <span className='mb-2'>Donations</span> 
+           <span>75%</span>
         </p>
-       <p className='w-[200px] h-[9px] bg-[#EDF7F5]'><span className='w-[200px] h-[9px] bg-red-500'></span></p>
+       <p className='w-full overflow-hidden h-[9px] bg-[#EDF7F5] transition-all duration-300 ease-in cubic-bezier-[.25, .8, .25, 1]'>
+        <span className='animate-animated duration-3000 w-[75%] h-[9px] float-left bg-[#219D80]'></span></p>
       </div>
       </div>
 
 
-      <div className='relative w-full md:max-w-[600px] col-span-12 md:col-span-7 '>
-        <img src={Rectangle3} alt="photo3" className='border-[15px] border-custom-color w-full md:w-[360px] md:h-[380px] h-[410px] xl:w-[400px] '/>
-        <ul className='list-disc border-[15px] border-custom-color absolute left-[35%] top-[60%]  w-full  xl:w-[320px] bg-white p-4 font-custom text-sm'>
+      <div className='relative w-full lg:max-w-[600px] col-span-12 lg:col-span-5 mt-[50px] lg:mt-0 mx-10 lg:mx-0'>
+        <img src={Rectangle3} alt="photo3" className='border-[15px] border-custom-color  md:h-[380px] h-[410px]  w-full md:w-[360px]  xl:w-[430px]'/>
+        <ul className='list-disc border-[15px] border-custom-color absolute left-[10%] sm:left-[35%] top-[60%] xl:w-[300px] bg-white p-4 font-custom text-sm '>
           <li className='text-[#219d80] my-2 text-sm'>Together, we're going to make the future</li>
           <li className='my-2 text-sm'>children where we are able to fulfill all</li>
           <li className='my-2 text-sm'>their requirements to keep them safe withered world</li>

@@ -12,3 +12,12 @@
 .primary-color{
     font-family: 'Montserrat', sans-serif;
 }
+@keyframes animated {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
+    }
+  }
+  

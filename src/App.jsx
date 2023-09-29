@@ -5,15 +5,14 @@ import { Navbar, Hero, About, Featuredpost, Gallery, Testimonial, Donate, Footer
 const App = () => {
   return (
     <div>
-      {/*just trying sth*/}
-    <Navbar />
-    <Hero />
-    <About />
-   <Featuredpost />
-     {/*<Gallery />*/}
-    <Testimonial />
-    <Donate />
-    <Footer /> 
+      <Navbar />
+      <Hero />
+      <About />
+      <Featuredpost />
+    {/* <Gallery /> */}
+      <Testimonial />
+     <Donate />
+     <Footer />
     </div>
   )
 }

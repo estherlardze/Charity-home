@@ -8,29 +8,29 @@ const Footer = () => {
     <footer className='bg-[#22262F] text-white px-8 py-6 '>
        <div className='flex flex-wrap justify-between mb-[30px] gap-8'>
           <div>
-           <a href="#" className='font-custom font-bold text-lg '>Address</a>
-            <p className='text-[#AFAFAF]'>A-272, Surajmal Vihar, Delhi, 11009281-8181-0860</p>
+           <a href="#" className='font-custom font-bold text-lg'>Address</a>
+            <p className='text-[#AFAFAF] mt-3'>A-272, Surajmal Vihar, Delhi, 11009281-8181-0860</p>
             <p className='text-[#AFAFAF]'>contact@vivekguptafoundation.in</p>
           </div>
           <div>
-            <a href="#" className='font-custom font-bold text-lg '>Get In Touch</a>
-            <p className='text-[#AFAFAF]'>Contact us</p>
+            <a href="#" className='font-custom font-bold text-lg'>Get In Touch</a>
+            <p className='text-[#AFAFAF] mt-3'>Contact us</p>
             <p className='text-[#AFAFAF]'>Our services</p>
           </div>
           <div>
             <a href="#" className='font-custom font-bold text-lg '>Newsletter</a>
-            <div>
+            <div className='mt-3'>
               <input type="text" placeholder='Enter your Email address' className='py-[5px] px-4 outline-none'/>
               <button className='bg-[#219d80] text-white px-2 py-[3.5px] text-lg'>Subscribe</button>
             </div>
             <small className='text-[#AFAFAF]'>Your email is safe with us,we don't spam.</small>
           </div>
        </div>
-       <hr className='border-b border-gray-700 w-full mt-[18px] ml-1'/>
+       <hr className='border-b border-gray-700 w-full mt-[18px] mb-4'/>
 
        <div className='text-center'>
         <a href="#" className='font-custom font-bold text-lg mb-4'>Follow Me</a>
-         <div className='text-black flex gap-[30px] align-center justify-center mt-[]20px'>
+         <div className='text-black flex gap-[30px] align-center justify-center mt-[20px]'>
            <AiOutlineTwitter size={40} className='bg-[#d9f5ee] p-1 rounded-[50%]'/>
            <FaInstagramSquare size={40} className='bg-[#d9f5ee] p-1 rounded-[50%]'/>
            <BsPinterest size={40} className='bg-[#d9f5ee] p-1 rounded-[50%]'/>
