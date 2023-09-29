@@ -1,5 +1,5 @@
 export {default as Logo} from './images/Logo.png';
-export {default as hero} from './images/Hero.png';
+export {default as hero} from './images/hero.png';
 export {default as Rectangle1} from './images/Rectangle1.png';
 export {default as Rectangle2} from './images/Rectangle2.png';
 export {default as Rectangle3} from './images/Rectangle3.png';
