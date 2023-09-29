@@ -28,14 +28,14 @@ const Navbar = () => {
 
     {
             showMenu && (
-            <div className='block sm:hidden h-[50vh] w-[100%] z-[-1] sm:z-auto bg-[#edf7f5] pt-[50px] mt-[20px]'>
-             <ul className='flex flex-col gap-[50px] ml-[20px]'>
+            <div className='block sm:hidden h-[50vh] w-[100%] z-[-1] sm:z-auto bg-[#edf7f5] pt-[50px] mt-[20px] transition-all ease-in-out duration-1000'>
+             <ul className='flex flex-col gap-[30px] ml-[20px]'>
                <li className='font-semibold hover:underline focus:underline text-lg'><a href="#">Home</a></li>
                <li className='font-semibold hover:underline focus:underline text-lg'><a href="#">Gallery</a></li>
-               <select className='font-semibold hover:underline focus:underline text-[1.15rem] mb-6'><option>About us</option></select>
-               <select className='font-semibold hover:underline focus:underline text-[1.15rem] mb-6'><option>How we help</option></select>
+               <select className='font-semibold hover:underline focus:underline text-[1.15rem] bg-transparent'><option>About us</option></select>
+               <select className='font-semibold hover:underline focus:underline text-[1.15rem]  bg-transparent'><option>How we help</option></select>
             </ul>
-            <button className='ml-[20px] bg-[#219D80] text-white px-4  mt-[50px] text-2xl '>Contact us</button>
+            <button className='ml-[20px] bg-[#219D80] text-white px-4 mt-[30px] text-2xl font-semibold'>Contact us</button>
           </div>
         )}
     </nav>

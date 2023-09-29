@@ -4,8 +4,8 @@ import {BsShieldFillCheck} from 'react-icons/bs'
 
 const Featuredpost = () => {
   return (
-    <div className='grid place-items-center grid-cols-12 mx-[30px] xl:mx-[200px] mt-[50px] md:mt-[220px] md:mb-[250px]' id='help'>
-      <div className='col-span-12 lg:col-span-7 mx-4' data-aos="fade-right">
+    <div className='grid place-items-center grid-cols-12 mx-[10px] xl:mx-[100px] mt-[50px] md:mt-[220px] mb-[170px] md:mb-[250px]' id='help'>
+      <div className='col-span-12 w-[90%] lg:col-span-7 mx-4' data-aos="fade-right">
         <div className='flex'>
           <p className='font-semibold'>Welcome to Charity</p>
           <hr className='border-b border-gray-300 w-[60px] mt-[18px] ml-1'/>
@@ -37,7 +37,7 @@ const Featuredpost = () => {
       </div>
 
 
-      <div className='relative w-full lg:max-w-[600px] col-span-12 lg:col-span-5 mt-[50px] lg:mt-0 mx-10 lg:mx-0' data-aos="fade-left">
+      <div className='relative w-[90%] lg:max-w-[600px] col-span-12 lg:col-span-5 mt-[50px] lg:mt-0 mx-10 lg:mx-0' data-aos="fade-left">
         <img src={Rectangle3} alt="photo3" className='border-[15px] border-custom-color  md:h-[380px] h-[410px]  w-full md:w-[360px]  xl:w-[430px]'/>
         <ul className='list-disc border-[15px] border-custom-color absolute left-[10%] sm:left-[35%] top-[60%] xl:w-[300px] bg-white p-4 font-custom text-sm '>
           <li className='text-[#219d80] my-2 text-sm'>Together, we're going to make the future</li>

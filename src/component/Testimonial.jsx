@@ -5,7 +5,7 @@ import {PiArrowUpRightBold} from 'react-icons/pi'
 
 const Testimonial = () => {
   return (
-    <div className='mx-[50px] font-primary-color mb-8 mt-[170px] sm:mt-[100px] md:mt-0'>
+    <div className='mx-[50px] font-primary-color mb-8 sm:mt-[100px] '>
       <div className='flex justify-between align-center gap-[10px]'>
          <div className='md:ml-[140px]'>
           <p className='text-[#00725e] text-lg '>Tetimonial</p>

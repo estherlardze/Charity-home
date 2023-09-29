@@ -11,15 +11,15 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div className='w-[100%]'>
       <Navbar />
       <Hero />
-     {/* <About />
-      <Featuredpost /> */}
+      <About />
+      <Featuredpost />
      <Gallery />
-      {/*<Testimonial />
+      <Testimonial />
      <Donate />
-     <Footer /> */}
+     <Footer /> 
     </div>
   )
 }
