@@ -3,12 +3,12 @@ import {Rectangle1, Rectangle2} from '../assets/index'
 
 const About = () => {
   return (
-    <div className='grid place-items-center grid-cols-12 mx-[30px] xl:mx-[100px] '>
-      <div className='relative col-span-12 lg:col-span-7'>
+    <div className='grid place-items-center grid-cols-12 mx-[30px] xl:mx-[100px]' id='about'>
+      <div className='relative col-span-12 lg:col-span-7' data-aos="fade-right">
         <img src={Rectangle1} alt="photo" className='border-[15px] border-custom-color w-full md:w-[360px]  xl:w-[430px] '/>
         <img src={Rectangle2} alt="photo2" className='border-[15px] border-custom-color absolute left-[10%] xs:left-[35%] md:left-[50%] top-[60%] w-[90%] h-[70%] md:w-[80%] xl:w-[330px]'/>
       </div>
-      <div className='col-span-12 lg:col-span-5 mt-[160px] md:mt-[140px] place-center'>
+      <div className='col-span-12 lg:col-span-5 mt-[160px] md:mt-[140px] place-center' data-aos="fade-left">
         <div className='flex'>
           <p className='font-semibold'>About us</p>
           <hr className='border-b border-gray-300 w-[60px] mt-[18px] ml-1'/>

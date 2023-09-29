@@ -14,7 +14,7 @@ const Testimonial = () => {
          <PiArrowUpRightBold size={38} className='bg-[#00725e] text-white p-2 rounded-tr-2xl cursor-pointer mt-[50px] lg:mt-[20px] lg:mr-[70px]'/>
       </div>
       <div className="flex flex-wrap align-center justify-center gap-[20px] lg:gap-[35px] my-[20px]">
-         <TestimonialCard heading="Kindness" image={profile1} client="John Doe" position="Senior Gardener Farmer"/>
+         <TestimonialCard heading="Kindness" image={profile1} client="John Doe" position="Senior Gardener Farmer" />
          <TestimonialCard heading="Humanity" image={profile1} client="Jack Harry" position="Senior Gardener Farmer"/>
          <TestimonialCard heading="Ethics & Morality" image={profile1} client="Sakib Hossain" position="Senior Gardener Farmer"/>
       </div>
