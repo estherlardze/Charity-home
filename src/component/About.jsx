@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import {Rectangle1, Rectangle2} from '../assets/index'
 
 const About = () => {
@@ -23,4 +23,4 @@ const About = () => {
   )
 }
 
-export default About
+export default forwardRef(About)

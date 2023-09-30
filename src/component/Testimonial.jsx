@@ -1,6 +1,6 @@
 import React from 'react';
 import TestimonialCard from './TestimonialCard';
-import {profile1} from '../assets/index'
+import {profile1, profile2, profile3} from '../assets/index'
 import {PiArrowUpRightBold} from 'react-icons/pi'
 
 const Testimonial = () => {
@@ -15,8 +15,8 @@ const Testimonial = () => {
       </div>
       <div className="flex flex-wrap align-center justify-center gap-[20px] lg:gap-[35px] my-[20px]">
          <TestimonialCard heading="Kindness" image={profile1} client="John Doe" position="Senior Gardener Farmer" />
-         <TestimonialCard heading="Humanity" image={profile1} client="Jack Harry" position="Senior Gardener Farmer"/>
-         <TestimonialCard heading="Ethics & Morality" image={profile1} client="Sakib Hossain" position="Senior Gardener Farmer"/>
+         <TestimonialCard heading="Humanity" image={profile2} client="Jack Harry" position="Senior Gardener Farmer"/>
+         <TestimonialCard heading="Ethics & Morality" image={profile3} client="Sakib Hossain" position="Senior Gardener Farmer"/>
       </div>
     </div>
   )

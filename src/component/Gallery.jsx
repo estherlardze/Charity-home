@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import {Photo1, Photo2, Photo3, Photo4, Photo5, Photo6, Photo7, Photo8} from '../assets/index'
 
 const Gallery = () => {
@@ -54,5 +54,5 @@ const Gallery = () => {
 }
 
 
-export default Gallery 
+export default forwardRef(Gallery)
 

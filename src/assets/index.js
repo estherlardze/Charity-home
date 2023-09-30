@@ -16,4 +16,4 @@ export {default as quote} from './images/quote.png';
 export {default as profile1} from './images/profile1.png';
 export {default as profile2} from './images/profile2.png';
 export {default as profile3} from './images/profile3.png';
-
+export {default as arrow} from './images/arrow.png';
