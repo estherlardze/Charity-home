@@ -14,7 +14,7 @@ const Navbar = ({onGalleryClick, onAboutClick}) => {
    <nav>
     <div className='flex justify-between w-[100%]'>
         <img src={Logo} alt="Logo" />
-        <ul className='sm:flex gap-[50px] mt-4 hidden'>
+        <ul className='md:flex gap-[50px] mt-4 hidden'>
           <li className='font-semibold hover:underline focus:underline text-lg'><a href="#">Home</a></li>
           <li className='font-semibold hover:underline focus:underline text-lg' onClick={onGalleryClick}><a>Gallery</a></li>
           <li className='font-semibold hover:underline focus:underline text-lg flex gap-2' onClick={onAboutClick}>
@@ -24,15 +24,15 @@ const Navbar = ({onGalleryClick, onAboutClick}) => {
             <a href="#">How we help</a><img src={arrow} alt="down arrow" className='w-[10px] h-[5px] mt-3'/>
           </li> 
          </ul>
-        <button className='mr-4 mb-[10px] bg-[#219d80] text-white px-1 mt-[10px] hidden sm:block text-lg'>Contact us</button>
-        <div className='block sm:hidden m-4 ' onClick={handleClick}>
+        <button className='mr-4 mb-[10px] bg-[#219d80] text-white px-1 mt-[10px] hidden md:block text-lg'>Contact us</button>
+        <div className='block md:hidden m-4 ' onClick={handleClick}>
           {showMenu ? <AiOutlineClose size={30}  /> : <AiOutlineMenu size={30}  />}
         </div>
     </div>
 
     {
             showMenu && (
-            <div className='block sm:hidden h-[50vh] w-[100%] z-[-1] sm:z-auto bg-[#edf7f5] pt-[50px] mt-[20px] transition-all ease-in-out duration-1000'>
+            <div className='block md:hidden h-[50vh] w-[100%] z-[-1] md:z-auto bg-[#edf7f5] pt-[50px] mt-[20px] transition-all ease-in-out duration-1000'>
              <ul className='flex flex-col gap-[30px] ml-[20px]'>
                <li className='font-semibold hover:underline focus:underline text-lg'>Home</li>
                <li className='font-semibold hover:underline focus:underline text-lg cursor-pointer' onClick={onGalleryClick}>Gallery</li>

@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div data-aos="fade-right">
             <a href="#" className='font-custom font-bold text-lg '>Newsletter</a>
-            <div className='mt-3'>
+            <div className='mt-3 flex flex-wrap'>
               <input type="text" placeholder='Enter your Email address' className='py-[5px] px-4 outline-none'/>
               <button className='bg-[#219d80] text-white px-2 py-[3.5px] text-lg'>Subscribe</button>
             </div>
