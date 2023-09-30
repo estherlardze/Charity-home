@@ -40,7 +40,7 @@ const Navbar = ({onGalleryClick, onAboutClick}) => {
                    <a href="#">About us</a><img src={arrow} alt="down arrow" className='w-[10px] h-[5px] mt-3'/>
                </li>               
                <li className='font-semibold hover:underline focus:underline text-lg flex gap-2'>
-                <a href="#">About us</a><img src={arrow} alt="down arrow" className='w-[10px] h-[5px] mt-3'/>
+                <a href="#">How we help</a><img src={arrow} alt="down arrow" className='w-[10px] h-[5px] mt-3'/>
                </li>           
                </ul>
             <button className='ml-[20px] bg-[#219D80] text-white px-4 py-2 mt-[30px] text-2xl font-semibold'>Contact us</button>

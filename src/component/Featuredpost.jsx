@@ -31,7 +31,7 @@ const Featuredpost = () => {
            <span className='mb-2'>Donations</span> 
            <span>75%</span>
         </p>
-       <p className='w-full overflow-hidden h-[9px] bg-[#EDF7F5] transition-all duration-300 ease-in cubic-bezier-[.25, .8, .25, 1]'>
+       <p className='overflow-hidden h-[9px] bg-[#EDF7F5] transition-all duration-300 ease-in cubic-bezier-[.25, .8, .25, 1]'>
         <span className='animate-animated duration-3000 w-[75%] h-[9px] float-left bg-[#219D80]'></span></p>
       </div>
       </div>
