@@ -32,7 +32,7 @@ const Navbar = ({onGalleryClick, onAboutClick}) => {
 
     {
             showMenu && (
-            <div className='block md:hidden h-[50vh] w-[100%] z-[-1] md:z-auto bg-[#edf7f5] pt-[50px] mt-[20px] transition-all ease-in-out duration-1000'>
+            <div className='block md:hidden h-[50vh] w-[100%] z-[10] md:z-auto bg-[#edf7f5] py-[30px] mt-[20px]  transition-all ease-in-out duration-3000'>
              <ul className='flex flex-col gap-[30px] ml-[20px]'>
                <li className='font-semibold hover:underline focus:underline text-lg'>Home</li>
                <li className='font-semibold hover:underline focus:underline text-lg cursor-pointer' onClick={onGalleryClick}>Gallery</li>
