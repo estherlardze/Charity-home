@@ -5,7 +5,7 @@ const Gallery = () => {
 
   return (
     <div
-       className="flex w-[100%] flex-col lg:flex-row mt-5 align-center justify-center "
+       className="flex w-[90%] mx-[5%] md:mx-[8%] md:w-[84%] flex-col lg:flex-row mt-[330px] align-center justify-center mb-20"
     >
       <div data-aos="fade" data-aos-delay="300" 
         className="flex flex-row justify-center 

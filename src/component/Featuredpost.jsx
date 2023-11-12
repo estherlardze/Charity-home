@@ -4,7 +4,7 @@ import {BsShieldFillCheck} from 'react-icons/bs'
 
 const Featuredpost = () => {
   return (
-    <div className='grid place-items-center grid-cols-12 mx-[10px] xl:mx-[100px] mt-[50px] md:mt-[220px] mb-[170px] md:mb-[250px]' id='help'>
+    <div className='grid place-items-center grid-cols-12 w-[90%] mx-[5%] md:mx-[8%] md:w-[84%] mt-[50px] md:mt-[220px] mb-[170px] md:mb-[250px]' id='help'>
       <div className='col-span-12 w-[90%] lg:col-span-7 mx-4' data-aos="fade-right">
         <div className='flex'>
           <p className='font-semibold'>Welcome to Charity</p>

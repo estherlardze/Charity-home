@@ -28,7 +28,7 @@ const Footer = () => {
        </div>
        <hr className='border-b border-gray-700 w-full mt-[18px] mb-4'/>
 
-       <div className='text-center' data-aos="fade-up">
+       <div className='text-center pb-4' data-aos="fade-up">
         <a href="#" className='font-custom font-bold text-lg mb-4'>Follow Me</a>
          <div className='text-black flex gap-[30px] align-center justify-center mt-[20px]' >
            <AiOutlineTwitter size={40} className='bg-[#d9f5ee] p-1 rounded-[50%]'/>

@@ -13,6 +13,9 @@ export default {
         custom: ['Playfair Display', 'sans'], 
          custom2: ['Montserrat', 'serif'],
       },
+      backgroundImage: {
+        hero: "url('/src/assets/images/hero.png')"
+      }
     },
   },
   plugins: [],

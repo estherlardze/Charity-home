@@ -24,7 +24,7 @@ const Home = () => {
 
     
   return (
-       <div className='w-[100%]'>
+       <div className='w-[100%] overflow-hidden'>
         <Navbar onGalleryClick={scrollToGallery} scrollToAbout={scrollToAbout} />
         <Hero />
         <div ref={aboutClick}>
@@ -36,7 +36,7 @@ const Home = () => {
          </div>      
         <Testimonial />
         <Donate />
-       <Footer /> 
+  <Footer /> 
     </div>
   )
 }
